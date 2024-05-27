@@ -29,20 +29,12 @@ path:hover{
     animation: bajada 2s; 
 }
 
-#movimiento{
+.movimiento{
     animation: movimiento 2s;
-
-    transform: scale(1,5);
-        
-    transform: translate(-50px, 10px);
 }
 
-#bajada{
+.bajada{
     animation: bajada 2s;
-
-    transform: scale(1,5);
-
-    transform: translate(50px, -10px);
 }
 
 @keyframes movimiento {
