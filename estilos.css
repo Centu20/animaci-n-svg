@@ -25,16 +25,14 @@ path:hover{
     fill: rgb(17, 177, 226);
     stroke: red;
     stroke-width: 2,8;
-    animation: movimiento 2s;
-    animation: bajada 2s; 
 }
 
-.movimiento{
-    animation: movimiento 2s;
-}
-
-.bajada{
+.movimiento:hover{
     animation: bajada 2s;
+}
+
+.bajada:hover{
+    animation: movimiento 2s;
 }
 
 @keyframes movimiento {
